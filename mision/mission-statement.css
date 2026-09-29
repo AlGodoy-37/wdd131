@@ -1,40 +1,39 @@
 #content {
     max-width: 600px;
     margin: 40px auto;
-    padding: 40px;
+    padding: 60px 160px;
     border: 1px solid #ccc;
 }
+
 h1 {
-    font-size: 40px;
     text-align: center;
-}
-.subtitle {
-    text-align: center;
-    color: #0062b8;
+    font-weight: normal;
+    letter-spacing: 4px;
 }
 
-.long {
-    margin-top: 50px;
-    font-size: 1.3rem;
-    margin-bottom: 25px;
-}
 h2 {
-    font-size: 1.1rem;
+    text-align: center;
+    color: #0062b8;
+    font-size: 0.8rem;
+    font-weight: normal;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #ddd;
 }
+
 p, li {
-    line-height: 1.5;
+    font-size: 1.15rem;
+    line-height: 1.6;
 }
 
 li {
     margin-bottom: 15px;
-    font-size: 20px;
 }
 
 footer {
     text-align: center;
     margin-top: 40px;
 }
+
 footer img {
-    width: 150px;
-    height: auto;
+    width: 125px;
 }
