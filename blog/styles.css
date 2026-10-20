@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+h1, h2 {
+    font-family: "Lora", Georgia, serif;
+}
+header, footer, nav, #book-list {
+    border-bottom: 2px solid #f6cfa3;
+}
+header, footer {
+    padding: 1rem;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    color: #3b1f4a;
+}
+footer {
+    border: none;
+    border-top: 2px solid #f6cfa3;
+}
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 1rem 1.5rem;
+}
+.main-nav a {
+    color: #b0143c;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+#book-list {
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    border-top: 2px solid #f6cfa3;
+}
+.book-info {
+    text-align: right;
+    font-size: 0.9rem;
+}
+.book-info p, .book-content p {
+    margin: 0 0 0.5rem 0;
+}
+.book-content h2 {
+    color: #b0143c;
+    font-size: 1.3rem;
+}
+.book-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1rem auto;
+}
+
+@media (min-width: 600px) {
+    #book-list {
+        margin-top: 0;
+        border-top: none;
+    }
+    .book {
+        display: grid;
+        grid-template-columns: 2fr 3fr 1fr;
+    }
+    .book-info {
+        padding-right: 1.5rem;
+        border-right: 2px solid #f6cfa3;
+    }
+    .book-content {
+        padding-left: 1.5rem;
+    }
+}
